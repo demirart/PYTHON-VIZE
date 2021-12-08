@@ -1,0 +1,15 @@
+
+
+
+print ( " -- Tarifler -- " )
+
+
+
+ymkkay ı t  =  açık ( "yemektarifleri.txt" , "w" )
+ymkkay ı t . write ( input (   "Yemek Adını Giriniz = " ))
+ymkkay ı t . write ( input ( "Yemek Tarifini Giriniz = " ))
+ymkkay ı t . kapat ()
+
+dosya  =  open ( "yemektarifleri.txt" , "r" )
+oku  =  dosya . oku ()
+print ( "Yemek Adı ve Tarifi = " , oku )
